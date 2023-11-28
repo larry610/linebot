@@ -292,7 +292,7 @@ def create_flex_template(user_id, code, basic_data):
 
 def show_Button(user_id):
     flex_message = FlexSendMessage(
-        alt_text="指標選股",
+        alt_text="耀斌語錄",
         contents={
             "type": "bubble",
             "body": {
@@ -301,7 +301,7 @@ def show_Button(user_id):
                 "contents": [
                     {
                         "type": "text",
-                        "text": "指標選股",
+                        "text": "名言金句",
                         "weight": "bold",
                         "size": "xl",
                         "color": "#A9D9D0"
@@ -315,7 +315,7 @@ def show_Button(user_id):
                 "contents": [
                     {
                         "type": "text",
-                        "text": "上市",
+                        "text": "長篇",
                         "size": "xl",
                         "color": "#027373",
                         "weight": "bold"
@@ -328,8 +328,15 @@ def show_Button(user_id):
                                 "type": "button",
                                 "action": {
                                     "type": "postback",
-                                    "label": "本益比",
-                                    "data": f"action=button_clicked&data=PE&userID={user_id}"
+                                    "label": "憑良心",
+                                    "data": f"你憑良心講在
+                                    這個群組我是不是被你狗叫最多次
+                                    批評我喜歡的音樂
+                                    批評我做自慰表格
+                                    我提出我的需求你批評我的需求
+                                    批評我的作品
+                                    批評我的朋友"
+                                                       
                                 },
                                 "gravity": "center",
                                 "style": "primary",
