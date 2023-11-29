@@ -294,144 +294,161 @@ def show_Button(user_id):
     flex_message = FlexSendMessage(
         alt_text="耀斌語錄",
         contents={
-            "type": "bubble",
-            "body": {
-                "type": "box",
-                "layout": "vertical",
-                "contents": [
-                    {
-                        "type": "text",
-                        "text": "名言金句",
-                        "weight": "bold",
-                        "size": "xl",
-                        "color": "#A9D9D0"
-                    }
-                ],
-                "backgroundColor": "#038C7F"
+  "type": "bubble",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "耀彬語錄",
+        "weight": "bold",
+        "size": "xl",
+        "color": "#008F8C"
+      }
+    ],
+    "backgroundColor": "#C7FFED"
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "button",
+            "action": {
+              "type": "message",
+              "label": "憑良心",
+              "text": "憑良心"
             },
-            "footer": {
-                "type": "box",
-                "layout": "vertical",
-                "contents": [
-                    {
-                        "type": "text",
-                        "text": "長篇",
-                        "size": "xl",
-                        "color": "#027373",
-                        "weight": "bold"
-                    },
-                    {
-                        "type": "box",
-                        "layout": "horizontal",
-                        "contents": [
-                            {
-                                "type": "button",
-                                "action": {
-                                    "type": "postback",
-                                    "label": "憑良心",
-                                    "data": f"你憑良心講在
-                                    這個群組我是不是被你狗叫最多次
-                                    批評我喜歡的音樂
-                                    批評我做自慰表格
-                                    我提出我的需求你批評我的需求
-                                    批評我的作品
-                                    批評我的朋友"
-                                                       
-                                },
-                                "gravity": "center",
-                                "style": "primary",
-                                "color": "#038C7F",
-                                "margin": "sm"
-                            },
-                            {
-                                "type": "button",
-                                "action": {
-                                    "type": "postback",
-                                    "label": "淨值比",
-                                    "data": f"action=button_clicked&data=PB&userID={user_id}"
-                                },
-                                "gravity": "center",
-                                "style": "primary",
-                                "color": "#038C7F",
-                                "margin": "sm"
-                            },
-                            {
-                                "type": "button",
-                                "action": {
-                                    "type": "postback",
-                                    "label": "殖利率",
-                                    "data": f"action=button_clicked&data=DY&userID={user_id}"
-                                },
-                                "gravity": "center",
-                                "style": "primary",
-                                "color": "#038C7F",
-                                "margin": "sm"
-                            }
-                        ]
-                    },
-                    {
-                        "type": "separator",
-                        "margin": "md",
-                        "color": "#D9D0C7"
-                    },
-                    {
-                        "type": "text",
-                        "text": "上櫃",
-                        "color": "#027373",
-                        "weight": "bold",
-                        "size": "xl"
-                    },
-                    {
-                        "type": "box",
-                        "layout": "horizontal",
-                        "contents": [
-                            {
-                                "type": "button",
-                                "action": {
-                                    "type": "postback",
-                                    "label": "本益比",
-                                    "data": f"action=button_clicked&data=PE2&userID={user_id}"
-                                },
-                                "gravity": "center",
-                                "style": "primary",
-                                "color": "#038C7F",
-                                "margin": "sm"
-                            },
-                            {
-                                "type": "button",
-                                "action": {
-                                    "type": "postback",
-                                    "label": "淨值比",
-                                    "data": f"action=button_clicked&data=PB2&userID={user_id}"
-                                },
-                                "gravity": "center",
-                                "style": "primary",
-                                "color": "#038C7F",
-                                "margin": "sm"
-                            },
-                            {
-                                "type": "button",
-                                "action": {
-                                    "type": "postback",
-                                    "label": "殖利率",
-                                    "data": f"action=button_clicked&data=DY2&userID={user_id}"
-                                },
-                                "gravity": "center",
-                                "style": "primary",
-                                "color": "#038C7F",
-                                "margin": "sm"
-                            }
-                        ]
-                    }
-                ],
-                "backgroundColor": "#A9D9D0"
+            "gravity": "center",
+            "style": "primary",
+            "color": "#015958",
+            "margin": "sm"
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "message",
+              "label": "情況如果是",
+              "text": "情況如果是"
             },
-            "styles": {
-                "header": {
-                    "backgroundColor": "#CEECF2"
-                }
-            }
-        }
+            "gravity": "center",
+            "style": "primary",
+            "color": "#015958",
+            "margin": "sm"
+          }
+        ]
+      },
+      {
+        "type": "separator",
+        "margin": "md"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "button",
+            "action": {
+              "type": "message",
+              "label": "好聲好氣",
+              "text": "GBP"
+            },
+            "gravity": "center",
+            "style": "primary",
+            "color": "#015958",
+            "margin": "sm"
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "message",
+              "label": "保持",
+              "text": "保持"
+            },
+            "gravity": "center",
+            "style": "primary",
+            "color": "#015958",
+            "margin": "sm"
+          }
+        ]
+      },
+      {
+        "type": "separator",
+        "margin": "md"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "button",
+            "action": {
+              "type": "message",
+              "label": "吵贏我",
+              "text": "吵贏我"
+            },
+            "gravity": "center",
+            "style": "primary",
+            "color": "#015958",
+            "margin": "sm"
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "message",
+              "label": "畢竟",
+              "text": "畢竟"
+            },
+            "gravity": "center",
+            "style": "primary",
+            "color": "#015958",
+            "margin": "sm"
+          }
+        ]
+      },
+      {
+        "type": "separator",
+        "margin": "md"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "button",
+            "action": {
+              "type": "message",
+              "label": "畢竟",
+              "text": "畢竟"
+            },
+            "gravity": "center",
+            "style": "primary",
+            "color": "#015958",
+            "margin": "sm"
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "message",
+              "label": "帥照",
+              "text": "帥照"
+            },
+            "gravity": "center",
+            "style": "primary",
+            "color": "#015958",
+            "margin": "sm"
+          }
+        ]
+      }
+    ],
+    "backgroundColor": "#008F8C"
+  }
+}
 
     )
     return flex_message
