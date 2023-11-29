@@ -48,7 +48,7 @@ def handle_message(event):
         line_bot_api.push_message(uid, flex_message_template)
 
     # --------------------指標選股--------------------
-    if re.match('指標選股', message_text):
+    if re.match('耀斌語錄', message_text):
         message = show_Button(uid)
         line_bot_api.reply_message(event.reply_token, message)
 

@@ -356,7 +356,7 @@ def show_Button(user_id):
             "action": {
               "type": "message",
               "label": "好聲好氣",
-              "text": "GBP"
+              "text": "好聲好氣"
             },
             "gravity": "center",
             "style": "primary",
@@ -423,8 +423,8 @@ def show_Button(user_id):
             "type": "button",
             "action": {
               "type": "message",
-              "label": "畢竟",
-              "text": "畢竟"
+              "label": "事不關己",
+              "text": "事不關己"
             },
             "gravity": "center",
             "style": "primary",
